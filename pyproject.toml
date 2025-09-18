@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kona-kalc"
+version = "0.1.0"
+description = "CLI to calculate when to leave for a Kona Ice shift"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Your Name" }]
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+kona-kalc = "kona_kalc.cli:main"
+
+# (optional, but helps older setuptools versions)
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["kona_kalc*"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
