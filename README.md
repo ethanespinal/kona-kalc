@@ -2,13 +2,16 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Kona Kalc** is a simple command-line tool that tells you **what time to leave your house** so you arrive 5 minutes early for a Kona Ice shift.  
+**Kona Kalc** is a command-line scheduling tool built *exclusively* for Kona Ice employees.  
+It calculates the exact time you need to leave home so you arrive **5 minutes early** for your shift.  
 
-It accounts for:
-- drive from **home → warehouse**
-- truck packing time
-- ice prep time (open sell vs predetermined cups)
-- drive from **warehouse → job site**
+The tool factors in:
+- Travel time from **home → warehouse**
+- Truck packing requirements
+- Ice preparation time (for both **open sell** and **pre-filled cups**)
+- Travel time from **warehouse → job site**
+
+⚠️ **Note:** This program is designed only for Kona Ice operations. It is not intended or supported for use outside of Kona Ice.
 
 ---
 
