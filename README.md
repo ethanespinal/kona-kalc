@@ -2,8 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Kona Kalc** is a command-line scheduling tool built *exclusively* for Kona Ice employees.  
-It calculates the exact time you need to leave home so you arrive **5 minutes early** for your shift.  
+**Kona Kalc** is a command-line scheduling tool built exclusively for Kona Ice employees.
+Developed entirely in **Python**, it calculates the exact time you need to leave home so you arrive **5 minutes early** for your event.
 
 The tool factors in:
 - Travel time from **home → warehouse**
